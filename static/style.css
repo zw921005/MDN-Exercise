@@ -1,0 +1,58 @@
+body {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+  }
+  
+  .sender-column {
+    text-align: right;
+  }
+  
+  h1 {
+    font-size: 50px;
+    line-height: 140px;
+    margin: 0 0 0 32.5px;
+  }
+  
+  h2 {
+    font-size: 1.3em;
+  }
+  
+  p, ul, ol, dl, address {
+    font-size: 1.1em;
+  }
+  
+  p, li, dd, dt, address {
+    line-height: 1.5;
+  }
+  
+  p.italic {
+    font-style: italic;
+  }
+
+  html {
+    font-family: 'Open Sans', sans-serif;
+    background: url(pattern.png);
+  }
+
+  header {
+    height: 150px;
+  }
+
+  header img {
+    width: 100px;
+    position: absolute;
+    right: 32.5px;
+    top: 32.5px;
+  }
+
+  main {
+    background: #ccc;
+    height: 600px;
+  }
+
+  footer{
+    height: 150px;
+  }
